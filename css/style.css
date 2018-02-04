@@ -53,26 +53,39 @@ h1{
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.item-1{
+.item-conteiner-1{
   color: white;
-  margin-bottom:  10px;
   width: 507px;
   height: 245px;
   background: #f7671d;
 }
-.item-2{
+.item-conteiner-2{
   width: 249px;
   height: 245px;
   background: #fff;
   margin-bottom: 10px;
-
 }
-.item-3{
+.item-conteiner-3{
   width: 249px;
   height: 123px;
   background: #fff;
   margin-bottom: 10px;
-
+}
+.number{
+padding: 55px 10px 0 10px;
+  color:orange;
+  font-size:30px;
+}
+.number-1{
+padding: 175px 10px 0 10px;
+  color:orange;
+  font-size:30px;
+}
+.textarea{
+  font-family: arial;
+text-align: center;
+font-size: 13px;
+padding:0 10px 10px 10px;
 }
 h1 {
   display: inline-block;
@@ -154,18 +167,37 @@ label{
 .pic1{
 margin-right: 10px;
 }
-.cite{
-  margin-top: 30px;
-  margin:20px;
+.item-conteiner-1-1{
+  font-family: arial;
+
+  margin:40px 20px 0 20px;
   font-variant: small-caps;
-  font-size: 18px;
+  font-size: 20px;
 }
-.text3{
+.item-conteiner-1-2{
+  line-height: 20px;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: 200;
   margin: 20px;
-  margin-bottom: 25px;
+  /* margin-bottom: 20px; */
 }
 .noute{
   right:0;
   top:0;
   position: absolute;
+}
+.contacts-item{
+  clear: both;
+  display: block;
+}
+.contacts-item-image{
+  float: left;
+  display: inline-block;
+}
+.contacts-item-text{
+  color: #4e4d4d;
+  padding-top:4px;
+  padding-left: 4px;
+  display: inline-block;
 }
