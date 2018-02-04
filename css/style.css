@@ -177,7 +177,6 @@ label{
   background-color: #f7671d;
   border:0px;
   color: white;
-
 }
 .cont2{
   color:black;
@@ -187,7 +186,6 @@ margin-right: 10px;
 }
 .item-conteiner-1-1{
   font-family: arial;
-
   margin:40px 20px 0 20px;
   font-variant: small-caps;
   font-size: 20px;
@@ -221,7 +219,7 @@ margin-right: 10px;
   display: inline-block;
 }
 .image-link{
-  display: inline-block;
+  display:inline-block;
 }
 .form{
   padding-bottom: 15px;
@@ -232,4 +230,7 @@ line-height: 25px;
 }
 .contacts{
 line-height: 25px;
+}
+.lincs{
+  display: block;
 }
