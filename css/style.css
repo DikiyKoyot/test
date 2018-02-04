@@ -58,6 +58,12 @@ h1{
   width: 507px;
   height: 245px;
   background: #f7671d;
+  display: block;
+  margin: 0 10px 10px 0;
+}
+.item-conteiner-1:hover{
+  background-color: lightblue;
+  color: purple;
 }
 .item-conteiner-2{
   width: 249px;
@@ -70,6 +76,16 @@ h1{
   height: 123px;
   background: #fff;
   margin-bottom: 10px;
+}
+.item-conteiner-3:hover{
+  background-color: purple;
+  color: yellow;
+}
+.item-conteiner-2:hover{
+  width: 249px;
+  height: 245px;
+  background-color: purple;
+  color: yellow;
 }
 .number{
 padding: 55px 10px 0 10px;
@@ -147,7 +163,7 @@ label{
   color: #868686;
 }
 .form1{
-    display: block;
+  display: block;
   width: 230px;
 }
 .text{
@@ -182,7 +198,7 @@ margin-right: 10px;
   font-size: 13px;
   font-weight: 200;
   margin: 20px;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
 }
 .noute{
   right:0;
@@ -208,5 +224,12 @@ margin-right: 10px;
   display: inline-block;
 }
 .form{
+  padding-bottom: 15px;
   display: block;
+}
+.label{
+line-height: 25px;
+}
+.contacts{
+line-height: 25px;
 }
