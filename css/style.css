@@ -101,13 +101,13 @@ h1:after {
   background-color: #fff;
   position: absolute;
   left: 130%;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
 }
 .footer{
   display: block;
   position: relative;
-  height:393px;
+  height:405px;
   background-color: #303646;
 }
 .contact1{
@@ -140,16 +140,18 @@ h4:after {
   background-color: lightgrey;
   position: absolute;
   left: 130%;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
 }
 label{
   color: #868686;
 }
 .form1{
+    display: block;
   width: 230px;
 }
 .text{
+    display: block;
   width:100%;
 }
 .submit{
@@ -186,6 +188,7 @@ margin-right: 10px;
   right:0;
   top:0;
   position: absolute;
+  z-index: 4;
 }
 .contacts-item{
   clear: both;
@@ -200,4 +203,10 @@ margin-right: 10px;
   padding-top:4px;
   padding-left: 4px;
   display: inline-block;
+}
+.image-link{
+  display: inline-block;
+}
+.form{
+  display: block;
 }
