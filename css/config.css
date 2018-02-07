@@ -23,8 +23,10 @@ header {
  width:1057px;
 }
 .navigation{
-  margin-top: -20px;
-display: block;
+box-sizing: border-box;
+margin-top: -20px;
+padding-left: 20px;
+padding-right: 20px;
 width: 100%;
 }
 .navigation-top{
@@ -229,6 +231,7 @@ h1{
   box-sizing: border-box; //делает паддинги не сниружи, а внутри элемента.
 }
 .article-pic-description{
+  justify-content: space-between;
   margin: 0;
   top:10px;
   font-size: 16px;
@@ -238,5 +241,6 @@ h1{
 }
 .article-pic-description-1{
   display:flex;
-  align-items: stretch;
+  align-items: flex-start;
+  position:relative;
 }
