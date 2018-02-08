@@ -8,8 +8,7 @@ header {
   height:155px;
 }
 .main{
-  display: block;
-
+display: inline-block;
 }
 .wrapper{
   display: block;
@@ -180,10 +179,16 @@ width: 100%;
   font-family: arial;
   letter-spacing: 1px;
 }
-.article{
-  padding-left: 20px;
-  width: 653px;
+.article-main{
+  margin-left: 20px;
+  display: inline-block;
+  width: 647px;
   position: relative;
+}
+.article{
+  position: relative;
+  display: inline-block;
+  width: 647px;
 }
 .date{
   position:absolute;
@@ -243,4 +248,9 @@ h1{
   display:flex;
   align-items: flex-start;
   position:relative;
+}
+.bar{
+  display:inline-block;
+  width: 330px;
+  margin-left: 40px;
 }
